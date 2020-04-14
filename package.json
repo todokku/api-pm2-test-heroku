@@ -1,0 +1,17 @@
+{
+  "name": "express-temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "pm2 start index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "pm2": "^4.2.3"
+  }
+}
